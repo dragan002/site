@@ -1,0 +1,677 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    background-color: #FFC107;
+    height: 3000px;
+    width: 1920px;
+}
+
+
+/* =============================== CONTAINER FIRST ===================== */
+/* =============================== CONTAINER FIRST - LEFT SIDE===================== */
+.containerFirst {
+    width: 1920px;
+    height: 918px;
+    background-color: rgb(234, 139, 14);
+}
+.containerFirst .leftSide {
+    width: 574px;
+    height: 918px;
+    background-color:#dfe3eb;
+}
+.containerFirst .rightSide {
+    width: 1346px;
+    height: 918px;
+    margin-left: 574px;
+    margin-top: -918px;  
+    background-color: #ebeff7;
+}
+
+.containerFirst .leftSide .iHave img {
+    width: 199px;
+    height: 50px;
+    margin-left: 142px;
+    margin-top: 38px;
+}
+.headPhones {
+    height: 592px;
+}
+.headPhonesContainer {
+    margin-top: 122px;
+    margin-left: 142px;
+    display: flex;
+    flex-direction: column;
+} 
+.headPhones .headPhonesContainer img {
+    width: 118px;
+    height: 118px;
+    margin-bottom: 40px;
+}
+#mainHeadPhones {
+    position:absolute;
+    width: 563px;
+    height: 696px;
+    top: 170px;
+    left: 277px;
+}
+/* =============================== CONTAINER FIRST - RIGHT SIDE===================== */
+.containerFirst .rightSide .topSection {
+    display: flex;
+    
+}
+.containerFirst .rightSide .topSection .captions {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 126px;
+}
+.containerFirst .rightSide .topSection .captions h3 {
+    font-size: 18px;
+    letter-spacing: 0.72px;
+    text-align: left;
+    margin-right: 48px;
+    margin-top: 79px; 
+    height: 22px;
+    color: #656565;
+    
+}
+.containerFirst .rightSide .topSection .captions #pocetna {
+    width: 86px;
+}
+.containerFirst .rightSide .topSection .captions #proizvodi {
+    width: 98;
+}
+.containerFirst .rightSide .topSection .captions #rasprodaja {
+    width: 122px;
+}
+.containerFirst .rightSide .topSection .captions #akcije {
+    width: 65px;
+}
+.containerFirst .rightSide .topSection .captions #kontakti {
+    width: 84px;
+}
+.containerFirst .rightSide .topSection .icons {
+    display: flex;
+    position: absolute;
+    left: 1667px;
+}
+.containerFirst .rightSide .topSection .icons img {
+    margin-left: 33px;
+}
+#firstI {
+    width: 24px;
+    height: 24px;
+    margin-top: 73px;
+}
+#secondI {
+    width: 24px;
+    height: 23px;
+    margin-top: 72px;
+}
+#thirdI {
+    width: 24px;
+    height: 17px;
+    margin-top: 77px;
+}
+
+/* ============== CONTAINER FIRST - MID SECTION ============== */ 
+.midSection .stars {
+    width: 17px;
+    height: 16.7px;
+    margin-left: 472px;
+    margin-top: 100px;
+    display: flex;
+    position: static;
+}
+.midSection .stars span {
+    margin-left: 2px;
+    color: #FFC107;
+}
+.midSection .stars .unchecked {
+    color: #CCCCCC;
+}
+.txtContent {
+    margin-left: 472px;
+}
+.txtContent h1 {
+    width: 525px;
+    height: 94px;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 94px;
+    font-family: 'Oswald';
+    font-variant: normal;
+    text-align: left;
+}
+.txtContent p {
+    width: 523px;
+    height: 76px;
+    margin-top: 8px;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Roboto';
+    text-align: left;
+    color: #656565;
+}
+.txtContent .price {
+    display: flex;
+}
+.txtContent .price p {
+    width: 168px;
+    height: 74px;
+    color: #FF9300;
+    font-size: 50px;
+    font-family: 'Oswald';
+    font-weight: 300;
+    text-align: left;
+    letter-spacing: 0px;
+    line-height: 74px;
+}
+.txtContent .counter {
+    width: 133px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 22px;
+    outline: 3px solid #9C9C9C;
+    border-radius: 8px;   
+}
+.txtContent .counter p  {
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Oswald';
+    line-height: 36px;
+    font-weight: 500;
+    color: #4B4B4B;
+    margin-left: -16px;
+    margin-top: 6px;
+}
+.txtContent .counter span {
+    font-size: 28px;
+    color: #9C9C9C;
+    font-family: 'Oswald';
+    font-weight: 500;
+    letter-spacing: 33px;
+    position: relative;
+    bottom: 76px;
+    left: 19px;
+}
+button {
+    margin-top: 61px;
+}
+#buyBtn {
+    width: 213px;
+    height: 61px;
+    background-color: #FF9300;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px #00000029;
+    font-size: 24px;
+    color: #fff;
+    font-family: 'Roboto';
+    font-weight: bold;
+    letter-spacing: 1.44px;
+}
+#addBtn {
+    width: 247px;
+    height: 61px;
+    border: 2px solid #FF9300;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px #00000029;
+    font-size: 24px;
+    letter-spacing: 1.44px;
+    color: #FF9300;
+    background-color: #EBEFF7;
+    font-family: 'Roboto';
+    font-weight: bold;
+    margin-left: 21px;
+}
+.desc {
+  margin-top: 35px;
+}
+.descFirst {
+    height: 60px;
+    display: flex;
+}
+.descFirst img {
+    width: 13.35px;
+    height: 16px;
+    margin-top: 11px;
+    
+}
+.descFirst p {
+    margin-left: 8px;
+    font-size: 16px;
+    font-family: 'Roboto';
+    line-height: 27px;
+    color: #656565;
+}
+.descSecond {
+    display: flex;
+    margin-top: -16px;
+}
+.descSecond img {
+    width: 13.62px;
+    height: 16px;
+    margin-top: 11px;
+}
+.descSecond p {
+    margin-left: 8px;
+    font-size: 16px;
+    font-family: 'Roboto';
+    line-height: 27px;
+    color: #656565;
+}
+.midSection .social {
+    margin-top: -410px;
+}
+.midSection .social img {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    margin-left: 1233px;
+    margin-top: 12px;
+}
+/* ====================== END OF FIRST SECTION ================== */
+
+/* ====================== SECOND SECTION ================== */
+.containerSecond {
+    width: 1920px;
+    height: 885px;
+}
+.containerSecond .coverImg .txt {
+    display: flex;
+    margin-left: 174px;
+    width: 606px;
+    height: 61px;
+    border-bottom: 1px solid #656565;
+    position: relative;
+    bottom:622px;
+    
+}
+.line {
+    background-color: #FF9300;
+    width: 95px;
+    height: 5px;
+    position: relative;
+    right:30px;
+    top: 31px;
+}
+.containerSecond .coverImg .txt .opis {
+    width: 47px;
+    height: 36px;
+    position: relative;
+    right: 160px;
+  
+}
+.containerSecond .coverImg .txt .spec {
+    position: relative;
+    left: -78px;
+}
+.containerSecond .coverImg .txt .ostalo {
+   position: relative;
+   left: 8px;
+}
+.containerSecond .coverImg .txt,
+ .opis,
+ .spec,
+.ostalo {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    justify-content: space-around;
+    letter-spacing: 0.96px;
+    font-weight: 500;
+    font-family: 'Oswald';
+    line-height: 27px;
+}
+.containerSecond .coverImg .txtDesc {
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 27px;
+    color: #656565;
+    position: relative;
+    bottom: 590px;
+    left: 170px;
+    text-align: left;
+    width: 700px;
+}
+.containerSecond .coverImg .txtDesc .first {
+    width: 580px;
+    height: 76px;
+    margin-bottom: 30px;
+}
+.containerSecond .coverImg .txtDesc .second {
+    width: 580px;
+    height: 49px;
+    margin-bottom: 24px;
+}
+.containerSecond .coverImg .txtDesc .third {
+    width: 580px;
+    height: 76px;
+}
+/* ====================== END OF SECOND SECTION ================== */
+
+/* ====================== THIRD SECTION ================== */
+.containerThird .txtContent {
+    margin-left: 1043px;
+    position: relative;
+    bottom: 650px;
+}
+
+
+.containerThird .txtContent h3 {
+    width: 560px;
+    height: 134px;
+    margin-bottom: 24px;
+    font-family:  'Oswald';
+    font-size: 50px;
+    line-height: 60px;
+    text-align: left;
+    color: #000000;
+    font-weight: 500;
+}
+.containerThird .txtContent p {
+    width: 580px;
+    height: 130px;
+    margin-bottom: 40px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    text-align: left;
+    color: #656565;
+}
+.containerThird .coverImg {
+    width: 1920px;
+}
+.containerThird button {
+    position: relative;
+    left: 1045px;
+    bottom: 702px;
+}
+
+/* ======================END OF THIRD SECTION ================== */
+/* ======================FOURTH SECTION ================== */
+.containerFourth {
+    width: 1920px;
+    height: 1010px;
+    position: relative;
+    bottom: 454px;
+    background-color: #EBEFF7;  
+}
+.containerFourth h2 {
+    width: 355px;
+    height: 74px;
+    margin-left: 784px;
+    position: relative;
+    top: 128px;
+    font-family: 'Oswald';
+    font-size: 49.5px;
+    line-height: 74px;
+    font-weight: 500;
+    text-align: left;
+    color: #000000;
+}
+.containerFourth p {
+    width: 596px;
+    height: 49px;
+    position: relative;
+    top: 154px;
+    left: 675px;
+    font-family: 'Roboto';
+    font-size: 17.9px;
+    line-height: 27px;
+    text-align: center;
+    color: #656565;
+}
+.containerFourth .img {
+    margin-left: 100px;
+    margin-top: 216px;
+}
+.containerFourth img {
+    width: 394px;
+    height: 394px;
+    margin-left: 25px;
+}
+
+.containerFourth .textContent {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Oswald';
+    margin-top: 24px;
+}
+.containerFourth .textContent h3 {
+    font-weight: 500;
+    font-size: 36px;
+    margin-left: 10px;
+}
+#deFunc {
+    position: relative;
+    right: 20px;
+}
+#inkax {
+    position: relative;
+    right: 22px;
+}
+#lav {
+    position: relative;
+    left: 22px;
+}
+#blue {
+    position: relative;
+    right:10px;
+}
+.containerFourth .price {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    right: 596px;
+    bottom: 140px;
+    
+}
+.containerFourth .price p {
+    width: 176px;
+    height: 74px;
+    color: #FF9300;
+    font-size: 50px;
+    font-family: 'Oswald';
+    font-weight:100;
+    text-align: left;
+    letter-spacing: 0px;
+    line-height: 74px;
+}
+#p2 {
+    left: 630px;
+}
+#p3 {
+    left: 570px;
+}
+#p4 {
+    left: 520px;
+}
+/* ===================END OF SECTION FOURTH ===============*/
+/* ============================SECTION FIVE ===============*/
+
+.containerFive {
+    width: 1920px;
+    height: 1304px;
+    position: relative;
+    bottom: 454px;
+    background-color: #DFE3EB;
+}
+.containerFive .caption {
+    font-family: 'Oswald';
+    text-align: center;
+    font-size: 50px;
+    color: #000000;
+    line-height: 74px;
+    position: relative;
+    top: 131px;
+}
+.containerFive .leftSide {
+    width: 670px;
+    height: 670px;
+    position: relative;
+    top: 218px;
+    left: 283px;
+}
+.containerFive .rightSide {
+    display: flex;
+    flex-direction: column;
+    margin-top: -500px;
+}
+.containerFive .rightSide input {
+    width: 394px;
+    height: 50px;
+    margin-left: 970px;
+    margin-bottom: 16px;
+    border: 3px ridge #939FB8;
+    border-radius: 4px;
+    background-color: #DFE3EB;
+    opacity: 30%;
+}
+#poruka {
+    height: 162px;
+}
+.containerFive .rightSide label {
+    font-family: 'Roboto';
+    line-height: 22px;
+    font-size: 18px;
+    margin-left: 970px;
+    color: #656565;
+    font-weight: 500;
+}
+.containerFive .rightSide #buyBtn {
+    width: 396px;
+    height: 61px;
+    margin-left: 970px;
+    margin-top: 70px;
+}
+.containerFive .rightSide .descSecond {
+    margin-left: 1064px;
+    margin-top: 20px;
+}
+.containerFive .rightSide .descSecond img {
+    position: relative;
+    bottom: 5px;
+}
+/* ========================== END OF FIFTH SECTION ===================== */ 
+/* ========================= SECTION SIX =================================*/
+
+.containerSix {
+    width: 1920px;
+    height: 470px;
+    background-color: #EBEFF7;
+    position: relative;
+    bottom: 454px;
+}
+.containerSix .contact {
+    position: relative;
+    left: 142px;
+    top: 132px;
+    width: 300px;
+
+}
+.h5Tag {
+    font-family: 'Roboto';
+    font-weight: bold;
+    line-height: 27px;
+    color: #656565;
+    margin-bottom: 6px;
+    font-size: 18px;
+}
+.uniqueP {
+    font-family: 'Roboto';
+    font-weight: 300;
+    line-height: 22px;
+    color: #656565;
+    margin-bottom: 16px;
+    font-size: 18px;
+    width: 300px;
+}
+.containerSix .contact img {
+    margin-bottom: 25px;
+    width: 40px;
+    height: 40px;
+}
+.containerSix .contact .call {
+    font-family: 'Roboto';
+    font-size: 12px;
+    color: #656565;
+    line-height: 14;
+    position: relative;
+    bottom: 50px;
+}
+.containerSix .contact .number {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 18px;
+    color: #656565;
+    position: relative;
+    right: 74px;
+    bottom: 26px;
+}
+.containerSix .about {
+  position: relative;
+  bottom: 183px;
+  left: 694px;
+  width: 300px;
+}
+.containerSix .help {
+    position: relative;
+    bottom: 327px;
+    left: 970px;
+    width: 300px;
+}
+.containerSix .social {
+    position: relative;
+    left: 1356px;
+    bottom: 474px;
+    width: 300px;
+}
+.containerSix .social p {
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: #656565;
+    font-weight: 600;
+}
+.containerSix .social img {
+    width: 24px;
+    height: 24px;
+    margin-top: 16px;
+}
+.containerSix .iHv {
+    width: 119px;
+    height: 30px;
+    position: relative;
+    left: 1353px;
+    bottom: 440px;
+}
+/* =================== END OF SECTION SIX ============ */
+
+/* ============================ Footer =====================*/
+
+footer {
+    width: 1920px;
+    height: 102px;
+    background-color: #DFE3EB;
+    position: relative;
+    bottom: 454px;
+}
+footer p {
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #656565;
+    font-weight: 500;
+    position: relative;
+    right: 510px;
+    top: 38px;
+}
+footer span {
+    font-weight: bold;
+}
+
